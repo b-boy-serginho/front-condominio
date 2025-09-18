@@ -1,0 +1,11 @@
+@keyframes scaleIn {
+  from { transform: scale(.97); opacity: 0 }
+  to   { transform: scale(1);   opacity: 1 }
+}
+@keyframes slideIn {
+  from { transform: translateY(-6px); opacity: 0 }
+  to   { transform: translateY(0);     opacity: 1 }
+}
+
+.animate-scaleIn { animation: scaleIn .16s ease-out both; }
+.animate-slideIn { animation: slideIn .2s ease-out both; }
